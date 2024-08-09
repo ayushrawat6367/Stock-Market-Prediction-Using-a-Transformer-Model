@@ -119,7 +119,7 @@ print(features.shape)
 
 # Training loop
 num_epochs = 10
-batch_size = 32
+batch_size = 64
 
 for epoch in range(num_epochs):
     model.train()
